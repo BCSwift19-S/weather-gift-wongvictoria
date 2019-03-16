@@ -54,7 +54,7 @@ class ListVC: UIViewController {
         autocompleteController.delegate = self
         present(autocompleteController, animated: true, completion: nil)
     }
-    
+
 }
 
 extension ListVC: UITableViewDelegate, UITableViewDataSource {
@@ -107,6 +107,10 @@ extension ListVC: UITableViewDelegate, UITableViewDataSource {
         let newIndexPath = IndexPath(row: locationsArray.count, section: 0)
         var newWeatherLocation = WeatherLocation()
         newWeatherLocation.name = place.name!
+        let latitude = place.coordinate.longitude
+        let longitude = place.coordinate.latitude
+        newWeatherLocation.coordinates = "\(longitude),\(latitude)"
+        print (newWeatherLocation.coordinates)
         locationsArray.append(newWeatherLocation)
         tableView.insertRows(at: [newIndexPath], with: .automatic)
     }

@@ -10,5 +10,5 @@ import Foundation
 
 struct WeatherLocation {
     var name = ""
-    var coordiantes = ""
+    var coordinates = ""
 }
