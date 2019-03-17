@@ -79,11 +79,11 @@
 			children = (
 				B51841D32235978600405428 /* AppDelegate.swift */,
 				B51841E522359A4600405428 /* DetailedVC.swift */,
-				B5F5C0A7223EEC1100DD0532 /* Constants.swift */,
 				B51841D72235978700405428 /* Main.storyboard */,
 				B5161DCA2235C4DA0044A262 /* PageVC.swift */,
 				B5F0A413223DAFB100070756 /* WeatherLocation.swift */,
 				B5161DC82235C2B80044A262 /* ListVC.swift */,
+				B5F5C0A7223EEC1100DD0532 /* Constants.swift */,
 				B51841DA2235978B00405428 /* Assets.xcassets */,
 				B51841DC2235978B00405428 /* LaunchScreen.storyboard */,
 				B51841DF2235978B00405428 /* Info.plist */,
