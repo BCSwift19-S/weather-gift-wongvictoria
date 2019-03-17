@@ -16,6 +16,7 @@
 		B51841DE2235978B00405428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51841DC2235978B00405428 /* LaunchScreen.storyboard */; };
 		B51841E622359A4600405428 /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51841E522359A4600405428 /* DetailedVC.swift */; };
 		B5F0A414223DAFB100070756 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A413223DAFB100070756 /* WeatherLocation.swift */; };
+		B5F5C0A8223EEC1100DD0532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5C0A7223EEC1100DD0532 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B51841DF2235978B00405428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51841E522359A4600405428 /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
 		B5F0A413223DAFB100070756 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
+		B5F5C0A7223EEC1100DD0532 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				B51841D32235978600405428 /* AppDelegate.swift */,
 				B51841E522359A4600405428 /* DetailedVC.swift */,
+				B5F5C0A7223EEC1100DD0532 /* Constants.swift */,
 				B51841D72235978700405428 /* Main.storyboard */,
 				B5161DCA2235C4DA0044A262 /* PageVC.swift */,
 				B5F0A413223DAFB100070756 /* WeatherLocation.swift */,
@@ -247,6 +250,7 @@
 				B5161DCB2235C4DA0044A262 /* PageVC.swift in Sources */,
 				B51841E622359A4600405428 /* DetailedVC.swift in Sources */,
 				B51841D42235978600405428 /* AppDelegate.swift in Sources */,
+				B5F5C0A8223EEC1100DD0532 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5F47BN2WF;
 				INFOPLIST_FILE = WeatherGift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5F47BN2WF;
 				INFOPLIST_FILE = WeatherGift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
