@@ -15,7 +15,6 @@ private let dateFormatter: DateFormatter = {
 }()
 
 class DayWeatherCell: UITableViewCell {
-
     @IBOutlet weak var dayCellIcon: UIImageView!
     @IBOutlet weak var dayCellWeekday: UILabel!
     @IBOutlet weak var dayCellMaxTemp: UILabel!
